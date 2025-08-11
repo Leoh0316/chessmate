@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>래오의 체스 사이트</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css" />
+  <style>
+    #board { width: 400px; margin: 20px auto; }
+    .highlight { background-color: yellow !important; }
+  </style>
+</head>
+<body>
+
+<div id="board"></div>
+<div id="status">게임 시작 대기중...</div>
+<button id="startBtn">게임 시작</button>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chess.js@1.0.0/chess.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
